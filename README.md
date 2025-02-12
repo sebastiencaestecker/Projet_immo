@@ -10,6 +10,10 @@ La ville de Jedha demande à la société A.S.O de l’aider à déterminer les 
 
 Quelles sont les variables qui ont une influence sur le prix des loyers en France ?
 
+**Video de la presentation:**
+
+https://drive.google.com/file/d/1F-eeXRD753TBManof235gotAZtUxodrC/view?usp=sharing
+
 **`Démarche analytique:`**
 
   -Collecte et nettoyage des données
