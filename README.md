@@ -1,60 +1,79 @@
-# Projet_immo
+# Projet Immobilier
 
-Projet Fin de formation Jedha
+**Analyse des loyers pour la ville de Jedha**
 
-**Contexte:**
+---
 
-La ville de Jedha demande à la société A.S.O de l’aider à déterminer les loyers des appartements qu’elle a récemment acquis pour ses fonctionnaires.
+## 🏙️ **Contexte**
 
-**Problématique:**
+La ville de Jedha a sollicité la société A.S.O pour déterminer les loyers des appartements récemment acquis pour ses fonctionnaires. Ce projet vise à identifier les variables influençant le prix des loyers en France à travers une analyse approfondie des données.
 
-Quelles sont les variables qui ont une influence sur le prix des loyers en France ?
+---
 
-**Video de la presentation:**
+## 🔑 **Problématique**
 
-https://drive.google.com/file/d/1F-eeXRD753TBManof235gotAZtUxodrC/view?usp=sharing
+Quelles sont les variables qui influencent le prix des loyers en France ?
 
-**`Démarche analytique:`**
+---
 
-  -Collecte et nettoyage des données
+## 🎥 **Vidéo de Présentation**
 
-**Pluiseurs Dataset contenant :**
+[Voir la vidéo de présentation](https://drive.google.com/file/d/1F-eeXRD753TBManof235gotAZtUxodrC/view?usp=sharing)
 
-  -un dataset des informations sur les infrastructures
+---
+
+## 🔍 **Démarche Analytique**
+
+### **Collecte et Nettoyage des Données**
+
+- **Datasets Utilisés** :
+  - Informations sur les infrastructures
+  - Données démographiques
+  - Revenus fiscaux
+  - Faits de crime
+  - Loyers
+
+- **Nettoyage avec Power Query** :
+  - Suppression des doublons et gestion des valeurs nulles.
+  - Formatage des colonnes pour une analyse cohérente.
+  - Fusion des datasets pour une vue d'ensemble complète.
+
+### **Exploration des Données (EDA)**
+
+- **Jointure des Datasets** : Combinaison des différentes sources de données pour une analyse unifiée.
+- **Analyse des Relations** : Étude des relations entre chaque facteur et le prix des loyers.
+
+### **Exemples d'Analyses**
+
+![Exemple d'Analyse 1](https://github.com/user-attachments/assets/39e534b1-ee0d-4e54-80c7-2567764407b6)
+![Exemple d'Analyse 2](https://github.com/user-attachments/assets/7468bddf-9771-4430-8ace-80c95f79997e)
+![Exemple d'Analyse 3](https://github.com/user-attachments/assets/c88b92c6-1113-40ef-9665-11563737113b)
+
+---
+
+## 📊 **Analyse de Données**
+
+- **Création d'Indicateurs** : Développement d'indicateurs pour évaluer l'attractivité des zones.
+- **Pondération des Indices** : Notation des zones en fonction de leur attractivité.
+
+### **Modèle de Régression Linéaire**
+
+- **Création du Modèle** : Développement d'un modèle de régression linéaire intégrant toutes les variables pertinentes.
+
+### **Visualisation des Loyers (€/m²)**
+
+- **Création de Cartes de Chaleur sur Power BI** : Visualisation interactive des loyers par zone.
+
+![Visualisation des Loyers](https://github.com/user-attachments/assets/8675c276-ee32-4ce8-89f5-36e02183defb)
+
+---
+
+## 🛠️ **Technologies Utilisées**
+
+- **Power BI** : Pour les visualisations et tableaux de bord interactifs.
+- **Power Query** : Pour le nettoyage et la transformation des données.
+- **Python** : Pour l'analyse exploratoire des données et le traitement des données.
+- **SQL** : Pour l'extraction et la manipulation des données.
+
+---
   
-  -un dataset sur la population 
-  
-  -un dataset sur les revenus fiscaux 
-  
-  -un dataset sur la faits de crime 
-  
-  -un dataset sur les loyers
-  
-**Exploration des données (EDA)**:
-
-  -Join entre les different dataset 
-  
-  -Analyse des relations entre chaque facteur et le prix des loyers.
-  
-**Exemple d'analyse:**
-![image (5)](https://github.com/user-attachments/assets/39e534b1-ee0d-4e54-80c7-2567764407b6)
-![image (6)](https://github.com/user-attachments/assets/7468bddf-9771-4430-8ace-80c95f79997e)
-![image (7)](https://github.com/user-attachments/assets/c88b92c6-1113-40ef-9665-11563737113b)
-
-
-**Analyse de donnée**
-
-  -Création d'indicateurs
-  
-  -Pondération des indices pour noter l'attractivité d'une zone.
-
-**Modele de regression lineaire**
-
-  -Creation du modele regression linaire avec toutes les variable
-
-
-**Visualisation des loyers €/m2**
-
-  -Creation de care de forme sur Powerbi
-  
-  ![Capture d'écran 2025-02-05 153916](https://github.com/user-attachments/assets/8675c276-ee32-4ce8-89f5-36e02183defb)
