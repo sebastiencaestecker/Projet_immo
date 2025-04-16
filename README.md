@@ -1,11 +1,11 @@
-# 🏡 Définir un loyer juste pour les logements publics destinés aux agents municipaux  
+#  Définir un loyer juste pour les logements publics destinés aux agents municipaux  
 **Power BI – Python – SQL – GCP**
 
 **Secteur ciblé** : Collectivités territoriales / RH publiques / Immobilier social
 
 ---
 
-## 🔍 Problématique  
+##  Problématique  
 **Comment définir un loyer équitable et cohérent pour de nouveaux logements publics en prenant en compte les caractéristiques socio-économiques locales ?**
 
 Dans un contexte de **gestion responsable du parc immobilier public**, la ville de Jedha souhaitait attribuer des logements à ses fonctionnaires tout en s’assurant que les loyers soient :
@@ -15,14 +15,14 @@ Dans un contexte de **gestion responsable du parc immobilier public**, la ville 
 - **Cohérents avec les conditions de vie dans chaque zone**
 
 
-## 🎯 But du projet  
+##  But du projet  
 - Déterminer une **valeur locative juste et objective** pour les logements nouvellement acquis
 - Identifier les **facteurs clés qui influencent les loyers** dans la région
 - Fournir un outil visuel pour **aider la ville à fixer ses loyers de manière transparente**
 
 ---
 
-## 🧠 Méthodologie  
+##  Méthodologie  
 Ce projet est en 3 grandes étapes, avec une stack 100 % cloud via **Google Cloud Platform** pour exécuter les traitements Python et SQL :
 
 ### 1. Collecte et préparation des données  
@@ -44,7 +44,7 @@ Ce projet est en 3 grandes étapes, avec une stack 100 % cloud via **Google Clou
 - Détection de zones où un **loyer plus bas pouvait être justifié**, notamment en cas de forte presence de service public ou forte criminalité
 
 
-## 📌 Recommandations métier  
+##  Recommandations métier  
 - Fixer un loyer **ajusté aux revenus moyens de la zone**, sans s’aligner automatiquement sur le marché
 - **Valoriser les logements situés dans des zones bien desservies**, même à loyer égal
 - Créer une **grille de loyers différenciée** par zone géographique et indicateurs socio-économiques
@@ -52,8 +52,8 @@ Ce projet est en 3 grandes étapes, avec une stack 100 % cloud via **Google Clou
 
 ---
 
-## 🎓 Intentions d’apprentissage  
-🎯 J’ai voulu à travers ce projet :
+##  Intentions d’apprentissage  
+ J’ai voulu à travers ce projet :
 - Me familiariser avec **la modélisation prédictive sur des données territoriales**
 - Apprendre à gérer **une stack cloud complète (GCP)** avec Python et SQL
 - Créer une **carte personnalisé sur POWER BI** 
